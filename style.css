@@ -1,0 +1,660 @@
+@font-face{
+	font-family: "Muller bold";
+	src: url("fonts/muller_bold.ttf") format("TrueType");
+}
+
+@font-face{
+	font-family: "Playfair Display Bold";
+	src: url("fonts/Playfair_bold.ttf") format("TrueType");
+}
+
+@font-face{
+	font-family: "Muller Black";
+	src: url("fonts/MullerBlack.ttf") format("TrueType");
+}
+
+@font-face{
+	font-family: "Muller Medium";
+	src: url("fonts/MullerMedium.ttf") format("TrueType");
+}
+
+@font-face{
+	font-family: "Muller Regular";
+	src: url("fonts/MullerRegular.ttf") format("TrueType");
+}
+
+@font-face{
+	font-family: "Playfair Display Italic";
+	src: url("fonts/Playfair_italic.ttf") format("TrueType");
+}
+
+@font-face{
+	font-family: "Muller Extra Bold";
+	src: url("fonts/MullerExtraBold.ttf") format("TrueType");
+}
+
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+.warper{
+	background-size: cover;
+	background-image: url("files/back1.png"), url("files/back1.jpg");
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+	min-width: 100%;
+	background-attachment: fixed;
+}
+
+.container{
+	position: relative;
+	margin: 0px auto;
+	height: 100%;
+	max-width: 810px;
+}
+
+.block1{
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 30px;
+	width: 100%;
+	height: 100vh;
+}
+
+.menus{
+	height: 4%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.div-main{
+	position: relative;
+	height: 88%;
+}
+
+.div-menu{
+	position: relative;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+}
+
+.div-logo{
+	position: relative;
+	height: 100%;
+}
+
+.container-main{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.div-conference{
+	margin-top: 15px;
+}
+
+.div-name{
+	margin-top: 12px;
+}
+
+.logo{
+	font-family: "Muller bold";
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.menu{
+	cursor: pointer;
+	font-family: "Muller bold";
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 11px;
+}
+
+.number{
+	margin-bottom: auto;
+	margin-top: auto;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.date{
+	font-family: "Playfair Display Bold";
+	color: white;
+	font-size: 23px;
+}
+
+.adress{
+	font-family: "Playfair Display Bold";
+	color: white;
+	font-size: 23px;
+}
+
+.conference{
+	font-family: "Muller bold";
+	font-size: 38px;
+	color: white;
+}
+
+.name{
+	-webkit-text-fill-color: transparent;
+	background: radial-gradient(circle, rgb(216, 36, 205) 0%, rgb(132, 83, 190) 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-family: "Muller Black";
+	margin: 0;
+	color: white;
+	font-size: 58px;
+}
+
+.slogan{
+	font-family: "Muller bold";
+	margin: 0;
+	color: rgb(131, 130, 162);
+	font-size: 38px;
+	float: right;
+}
+
+.div-main-footer{
+	top: 78%;
+	z-index: 2;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.main-button{
+	cursor: pointer;
+	text-align: center;
+	font-size: 10px;
+	border-radius: 30px;
+	width: 255px;
+	height: 52px;
+	color: white;
+	border: 0;
+	background: linear-gradient(135deg, #7f12ab, #da16c9);
+	font-family: "Muller bold";
+}
+
+.warper2{
+	background-size: cover;
+	background-image: url("files/back2.png");
+	min-height: 100%;
+	display: inline-block;
+	min-width: 100%;
+}
+
+.container2{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block2{
+	width: 100%;
+	height: 100%;
+}
+
+.points{
+	font-family: "Muller Medium";
+	color: rgb(237, 190, 232);
+	margin: 0;
+	font-size: 23px;
+	line-height: 0.43;
+}
+
+.div-points{
+	user-select: none;
+	font-size: 0px;
+}
+
+.div-about{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 107px;
+	margin-bottom: 53px;
+}
+
+.div-futur-one{
+	display: flex;
+}
+
+.div-futur-two{
+	margin-top: 10px;
+}
+
+.div-futur-title{
+	margin-left: 22px;
+	margin-top: 3px;
+	line-height: 1.15;
+}
+
+.futur-title-one{
+	font-size: 26px;
+	font-family: "Muller bold";
+}
+
+.futur-title-two{
+	font-size: 26px;
+	font-family: "Muller Regular";
+}
+
+.futur-text{
+	display: block;
+	font-size: 13px;
+	color: rgb(121, 125, 128);
+	font-family: "Muller Regular";
+}
+
+.div-stratup-title{
+	line-height: 1.15;
+}
+
+.startup-title-one{
+	font-size: 26px;
+	font-family: "Muller Regular";
+}
+
+.startup-title-two{
+	font-size: 26px;
+	font-family: "Muller bold";
+}
+
+.div-startup-two{
+	margin-top: 10px;
+}
+
+.startup-text{
+	line-height: 1.6;
+	font-size: 13px;
+	color: rgb(121, 125, 128);
+	font-family: "Muller Regular";
+}
+
+.warper3{
+	background-color: rgb(254, 240, 255);
+	width: 100%;
+}
+
+.container3{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block3{
+	width: 100%;
+	height: 100%;
+}
+
+.div-speakers{
+	padding-top: 60px;
+}
+
+.div-speakers-title{
+	text-align: center;
+}
+
+.speakers-title{
+	font-family: "Muller bold";
+	font-size: 25px;
+}
+
+.div-speakers-avatar{
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.div-speakers-two{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+.speaker-avatar{
+	user-select: none;
+	pointer-events: none;
+}
+
+.div-speakers-avatar-two{
+	height: 190px;
+	position: relative;
+}
+
+.div-speakers-avatar-three{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 0px 0px 60px rgba(0,0,0, 0.2);
+	background: linear-gradient(0, rgba(127, 18, 171, 0.88) 0%, rgba(218, 22, 201, 0.88) 100%);
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.speakers-name{
+	font-family: "Muller bold";
+	color: white;
+	font-size: 17px;
+	pointer-events: none;
+	position: absolute;
+	font-weight: bold;
+	left: -20px;
+	margin-top: 24px;
+	transition: 0.3s;
+}
+
+.speakers-text{
+	font-family: "Muller Regular";
+	color: white;
+	left: 50px;
+	font-size: 13px;
+	pointer-events: none;
+	position: absolute;
+	margin-top: 70px;
+	transition: 0.3s;
+}
+
+.div-speakers-avatar-two:hover .div-speakers-avatar-three{
+	opacity: 1;
+}
+
+.div-speakers-avatar-two:hover .speakers-name{
+	left: 15px;
+}
+
+.div-speakers-avatar-two:hover .speakers-text{
+	left: 15px;
+}
+
+.warper4{
+	height: 100%;
+	width: 100%;
+}
+
+.container4{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block4{
+	height: 100%;
+	width: 100%;
+}
+
+.div-start-project{
+	height: 100%;
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.part2{
+	top: 170px;
+	left: -90px;
+	user-select: none;
+	pointer-events: none;
+	position: absolute;
+}
+
+.div-start-text{
+	text-align: center;
+	height: 100%;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.start-title{
+	font-size: 25px;
+	font-family: "Muller bold";
+}
+
+.start-text{
+	margin-top: 24px;
+	display: block;
+	font-size: 14px;
+	font-family: "Playfair Display Italic";
+}
+
+.start-author{
+	margin-top: 24px;
+	font-family: "Muller bold";
+	display: block;
+	font-size: 13px;
+}
+
+.warper5{
+	background: url("files/back3.png"), #20203a;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.container5{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block5{
+	height: 100%;
+	width: 100%;
+}
+
+.div-programm{
+	padding-top: 58px;
+	padding-bottom: 82px;
+}
+
+.div-programm-title{
+	width: 100%;
+	text-align: center;
+}
+
+.programm-title{
+	font-size: 25px;
+	font-family: "Muller bold";
+	color: white;
+}
+
+.div-programm-text{
+	line-height: 1.1;
+	margin-top: 40px;;
+	display: flex;
+	justify-content: space-between;
+}
+
+.programm-text{
+	font-size: 13px;
+	color: white;
+	font-family: "Muller Regular";
+}
+
+.warper6{
+	background: linear-gradient(135deg, #da16c9, #7f12ab);
+	height: 100%;
+	width: 100%;
+}
+
+.container6{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block6{
+	height: 100%;
+	width: 100%;
+}
+
+.div-citation{
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.citation-text{
+	font-size: 26px;
+	font-family: "Playfair Display Italic";
+	color: white;
+}
+
+.div-citation-author{
+	margin-top: 10px;
+}
+
+.citation-author{
+	font-size: 15px;
+	font-family: "Muller bold";
+	color: white;
+}
+
+.warper7{
+	height: 100%;
+	width: 100%;
+}
+
+.container7{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block7{
+	height: 100%;
+	width: 100%;
+}
+
+.div-tariffs-all{
+	padding-top: 65px;
+}
+
+.div-tariffs-title{
+	text-align: center;
+}
+
+.tariffs-title{
+	font-size: 25px;
+	font-family: "Muller bold";
+}
+
+.div-tariffs{
+	height: 100%;
+	margin-top: 54px;
+	display: flex;
+	justify-content: center;
+}
+
+.div-tariff{
+	position: relative;
+	padding-top: 22px;
+	text-align: center;
+	height: 332px;
+	width: 300px;
+	margin-bottom: 100px;
+	border-radius: 4.5px;
+	transition: 0.3s;
+}
+
+.div-tariff-1{
+	text-align: center;
+	position: relative;
+	height: 295px;
+}
+
+.div-tariff:not(:last-child){
+	margin-right: 2px;
+}
+
+.div-tariff:not(:first-child){
+	margin-left: 2px;
+}
+
+.div-tariff:not(:last-child) .div-tariff-1{
+	box-shadow: inset -0.1px 0 0 black;
+}
+
+.tariff-name{
+	letter-spacing: 1px;
+	font-size: 10px;
+	font-family: "Muller Extra Bold";
+}
+
+.tariff-old-price{
+	display: inline-block;
+	margin-top: 14px;
+	font-size: 18px;
+	text-decoration: line-through;
+	font-family: "Muller Regular";
+}
+
+.tariff-new-price{
+	display: inline-block;
+	margin-top: 2px;
+	font-size: 21px;
+	font-family: "Muller bold";
+}
+
+.tariff-text{
+	display: inline-block;
+	margin-top: 14px;
+	letter-spacing: 0.2px;
+	color: rgb(121, 125, 128);
+	line-height: 1.7;
+	font-size: 10px;
+	font-family: "Muller Regular";
+}
+
+.tariff-button{
+	position: absolute;
+	bottom: 0;
+	font-family: "Muller bold";
+	left:50%;
+	transform: translateX(-50%);
+	font-size: 9px;
+	width: 144px;
+	height: 33px;
+	background: linear-gradient(#da16c9, #7f12ab);
+	border: 0;
+	border-radius: 20px;
+	color: white;
+	cursor: pointer;
+	box-shadow: -10px 20px 50px 1px rgba(0, 0, 0, 0.3);
+}
+
+.div-tariff:hover{
+	background: linear-gradient(135deg, #da16c9, #7f12ab);
+	width: 310px;
+	box-shadow: -10px 10px 50px 1px rgba(0, 0, 0, 0.3);
+}
+
+.div-tariff:hover .tariff-button{
+	background: white;
+}
+
+.div-tariff:hover .tarif-button-text{
+	/* -webkit-text-fill-color: transparent;
+	background: linear-gradient(#da16c9, #7f12ab);
+	-webkit-background-clip: text; */
+	color: #7f12ab;
+	/* background-clip: text; */
+}
+
+.div-tariff:hover .tariff-name, .div-tariff:hover .tariff-new-price, .div-tariff:hover .tariff-old-price, .div-tariff:hover .tariff-text{
+	color: white;
+}
+
+::-webkit-scrollbar{
+	width: 0px;
+}
