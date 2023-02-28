@@ -402,6 +402,11 @@ body, html{
 	position: relative;
 }
 
+.start-avatar{
+	user-select: none;
+	pointer-events: none;
+}
+
 .part2{
 	top: 170px;
 	left: -90px;
@@ -541,6 +546,7 @@ body, html{
 
 .div-tariffs-all{
 	padding-top: 65px;
+	padding-bottom: 105px;
 }
 
 .div-tariffs-title{
@@ -560,12 +566,12 @@ body, html{
 }
 
 .div-tariff{
+	user-select: none;
 	position: relative;
 	padding-top: 22px;
 	text-align: center;
 	height: 332px;
 	width: 300px;
-	margin-bottom: 100px;
 	border-radius: 4.5px;
 	transition: 0.3s;
 }
@@ -668,4 +674,92 @@ body, html{
 
 ::-webkit-scrollbar{
 	width: 0px;
+}
+
+.warper8{
+	height: 100%;
+	width: 100%;
+}
+
+.container8{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block8{
+	height: 100%;
+	width: 100%;
+}
+
+.div-mobiles-all{
+	display: flex;
+}
+
+.div-mockup{
+	user-select: none;
+	pointer-events: none;
+}
+
+.mockup{
+	width: 185px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(-20px 15px 20px rgba(0, 0, 0, 0.3));
+}
+
+.div-mobile{
+	margin-top: 90px;
+}
+
+.div-mobile-1{
+	margin-left: 40px;
+}
+
+.div-mobile-2{
+	margin-top: 18px;
+	margin-left: 44px;
+}
+
+.mobile-title{
+	font-size: 26px;
+	font-family: "Muller bold";
+	font-weight: bold;
+}
+
+.div-mobile-description{
+	margin-top: 12px;
+}
+
+.mobile-description{
+	font-size: 17px;
+	font-family: "Muller Regular";
+}
+
+.div-mobile-text-container{
+	display: flex;
+}
+
+.div-mobile-check{
+	height: 19px;
+	pointer-events: none;
+	user-select: none;
+}
+
+.mobile-check{
+	width: 19px;
+}
+
+.div-mobile-text{
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.mobile-text{
+	font-family: "Muller Regular";
+	font-size: 11px;
+}
+
+.div-mobile-all{
+	margin-top: 11px;
 }
