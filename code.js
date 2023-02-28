@@ -21,3 +21,11 @@ $(document).ready(function(){
         }, 1500);
     });
 });
+
+$(document).ready(function(){
+    $(document).on("click", "#tickets",function(){
+        $("html, body").animate({
+            scrollTop: $(".warper7").offset().top
+        }, 2000);
+    });
+});
