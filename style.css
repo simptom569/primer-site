@@ -107,6 +107,7 @@ body, html{
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
+	user-select: none;
 }
 
 .menu{
@@ -116,6 +117,7 @@ body, html{
 	margin-top: auto;
 	margin-bottom: auto;
 	font-size: 11px;
+	user-select: none;
 }
 
 .number{
@@ -182,6 +184,7 @@ body, html{
 	border: 0;
 	background: linear-gradient(135deg, #7f12ab, #da16c9);
 	font-family: "Muller bold";
+	user-select: none;
 }
 
 .warper2{
@@ -589,6 +592,7 @@ body, html{
 	letter-spacing: 1px;
 	font-size: 10px;
 	font-family: "Muller Extra Bold";
+	user-select: none;
 }
 
 .tariff-old-price{
@@ -597,6 +601,7 @@ body, html{
 	font-size: 18px;
 	text-decoration: line-through;
 	font-family: "Muller Regular";
+	user-select: none;
 }
 
 .tariff-new-price{
@@ -604,6 +609,7 @@ body, html{
 	margin-top: 2px;
 	font-size: 21px;
 	font-family: "Muller bold";
+	user-select: none;
 }
 
 .tariff-text{
@@ -614,6 +620,7 @@ body, html{
 	line-height: 1.7;
 	font-size: 10px;
 	font-family: "Muller Regular";
+	user-select: none;
 }
 
 .tariff-button{
@@ -649,6 +656,10 @@ body, html{
 	-webkit-background-clip: text; */
 	color: #7f12ab;
 	/* background-clip: text; */
+}
+
+.tarif-button-text{
+	user-select: none;
 }
 
 .div-tariff:hover .tariff-name, .div-tariff:hover .tariff-new-price, .div-tariff:hover .tariff-old-price, .div-tariff:hover .tariff-text{
