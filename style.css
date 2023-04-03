@@ -694,6 +694,7 @@ body, html{
 
 .div-mobiles-all{
 	display: flex;
+	margin-bottom: 85px;
 }
 
 .div-mockup{
@@ -762,4 +763,56 @@ body, html{
 
 .div-mobile-all{
 	margin-top: 11px;
+}
+
+.warper9{
+	height: 100%;
+	width: 100%;
+}
+
+.container9{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block9{
+	height: 100%;
+	width: 100%;
+}
+
+.div-all-month{
+	text-align: center;
+}
+
+.div-month-description{
+	margin-top: 50px;
+}
+
+.month-title{
+	font-family: "Muller bold";
+	font-size: 25px;
+}
+
+.div-month{
+	display: flex;
+	justify-content: space-around;
+}
+
+.month-image{
+	width: 44px;
+}
+
+.month-description{
+	margin-top: 9px;
+	display: inline-block;
+	font-family: "Muller Regular";
+	font-size: 11px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.div-month-1{
+	text-align: center;
+	width: 100px;
 }
