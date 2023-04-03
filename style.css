@@ -787,6 +787,7 @@ body, html{
 
 .div-month-description{
 	margin-top: 50px;
+	margin-bottom: 55px;
 }
 
 .month-title{
@@ -797,6 +798,10 @@ body, html{
 .div-month{
 	display: flex;
 	justify-content: space-around;
+}
+
+.div-month:nth-child(2){
+	margin-top: 60px;
 }
 
 .month-image{
@@ -815,4 +820,106 @@ body, html{
 .div-month-1{
 	text-align: center;
 	width: 100px;
+}
+
+.warper10{
+	height: 100%;
+	width: 100%;
+	background-color: #fef0ff;
+}
+
+.container10{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block10{
+	height: 100%;
+	width: 100%;
+}
+
+.div-all-question{
+	text-align: center;
+	padding-top: 95px;
+	padding-bottom: 75px;
+}
+
+.question-title{
+	font-family: "Muller bold";
+	font-size: 25px;
+	line-height: 1.25;
+}
+
+.div-question-button{
+	margin-top: 22px;
+}
+
+.question-button{
+	font-family: "Muller bold";
+	font-size: 11px;
+	width: 180px;
+	height: 39px;
+	background: linear-gradient(#da16c9, #7f12ab);
+	border: 0;
+	border-radius: 20px;
+	color: white;
+	cursor: pointer;
+	box-shadow: -10px 20px 50px 1px rgba(0, 0, 0, 0.3);
+}
+
+.warper11{
+	height: 100%;
+	width: 100%;
+	background-image: url("files/back4.jpg");
+	background-size: cover;
+}
+
+.container11{
+	position: relative;
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.block11{
+	height: 100%;
+	width: 100%;
+}
+
+.div-all-area{
+	color: white;
+	padding-top: 70px;
+	padding-bottom: 76px;
+}
+
+.div-area-descriptions{
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.7;
+	max-width: 600px;
+	margin: 50px auto;
+	margin-bottom: 0;
+}
+
+.div-area-description{
+	text-align: center;
+}
+
+.div-area-title{
+	text-align: center;
+}
+
+.area-title{
+	font-family: "Muller bold";
+	font-size: 26px;
+}
+
+.area-number{
+	font-family: "Muller bold";
+	font-size: 26px;
+}
+
+.area-text{
+	font-family: "Muller Regular";
+	font-size: 11px;
 }
