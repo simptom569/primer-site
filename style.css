@@ -1007,6 +1007,7 @@ body, html{
 	color: white;
 	font-family: "Muller bold";
 	font-size: 10px;
+	cursor: pointer;
 }
 
 .form-input{
