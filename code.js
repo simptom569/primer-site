@@ -29,3 +29,15 @@ $(document).ready(function(){
         }, 2000);
     });
 });
+
+$(document).ready(function(){
+    $(document).on("click", "#menu-button",function(){
+        document.getElementById("side-panel").style.width = "220px";
+    })
+})
+
+$(document).ready(function(){
+    $(document).on("click", "#close-menu",function(){
+        document.getElementById("side-panel").style.width = "0px";
+    })
+})
