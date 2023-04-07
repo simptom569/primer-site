@@ -1206,6 +1206,12 @@ body, html{
 	}
 }
 
+@media (max-width: 505px) {
+	.div-tariff:nth-child(2n + 1) .div-tariff-1 {
+		box-shadow: none
+	}
+}
+
 @media (max-width: 351px) {
 	.warper12-part{
 		display: none;
