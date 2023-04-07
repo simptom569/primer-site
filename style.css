@@ -1246,6 +1246,12 @@ body, html{
 	.menu-button{
 		display: inline-block;
 	}
+
+	.div-about{
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 40px;
+	}
 }
 
 @media (max-width: 510px) {
