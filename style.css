@@ -1122,6 +1122,51 @@ body, html{
 	font-size: 15px;
 }
 
+@media (max-width: 1032px) {
+	.warper2-part{
+		display: none;
+	}
+}
+
+@media (max-width: 842px) {
+	.warper10-part{
+		display: none;
+	}
+}
+
+@media (max-width: 764px) {
+	.div-tariffs{
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.div-tariff{
+		width: 250px;
+	}
+
+	.div-tariff:hover{
+		width: 260px;
+	}
+
+	.div-tariff:not(:last-child) .div-tariff-1{
+		box-shadow: none;
+	}
+
+	.div-tariff:nth-child(2n + 1) .div-tariff-1{
+		box-shadow: inset -0.1px 0 0 black;
+	}
+
+	.div-forms{
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.div-form-input{
+		margin-right: 0px;
+	}
+}
+
 @media (max-width: 746px) {
 	.div-speakers-avatar-two{
 		margin-left: 30px;
@@ -1145,7 +1190,30 @@ body, html{
 	}
 
 	.div-all-contacts{
-		display: block;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+
+	.warper13-part{
+		display: none;
+	}
+}
+
+@media (max-width: 510px) {
+	.div-partners{
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+}
+
+@media (max-width: 351px) {
+	.warper12-part{
+		display: none;
+	}
+
+	.div-mobiles-all{
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 }
 
